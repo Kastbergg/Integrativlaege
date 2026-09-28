@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kontakt · integrativ</title>
+<meta name="description" content="Kontakt læge Sophie Kastberg hos integrativ og aftal en gratis afklaring på 15 minutter.">
+<meta property="og:title" content="Kontakt · integrativ">
+<meta property="og:description" content="Kontakt læge Sophie Kastberg hos integrativ og aftal en gratis afklaring på 15 minutter.">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,200;6..72,300;6..72,400&amp;family=Instrument+Sans:wght@400;500&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap bar">
+    <a class="brand" href="index.html"><b>integrativ</b><span>Medicin i sammenhæng</span></a>
+    <button class="burger" type="button" aria-expanded="false"><span></span>Menu</button>
+    <nav class="nav" aria-label="Hovedmenu">
+        <a href="index.html">Forside</a>
+        <a href="rammen.html">Rammen</a>
+        <a href="analyser.html">Analyser</a>
+        <a href="priser.html">Priser</a>
+
+        <a class="btn-book" href="kontakt.html">Kontakt</a>
+    </nav>
+  </div>
+  <div class="mnav">
+      <a href="index.html">Forside</a>
+      <a href="rammen.html">Rammen</a>
+      <a href="analyser.html">Analyser</a>
+      <a href="priser.html">Priser</a>
+
+      <a class="btn-book" href="kontakt.html">Kontakt</a>
+  </div>
+</header>
+<main id="top">
+<section class="phead">
+  <div class="wrap">
+    <h1 class="h1--page">Kontakt</h1>
+    <p class="lead">Ring, eller skriv hvad du søger hjælp til, så ringer jeg dig op til en gratis afklaring på 15 minutter.</p>
+  </div>
+</section>
+
+<section class="bg-white" style="padding-top:clamp(46px,6vw,84px);padding-bottom:clamp(56px,7.5vw,104px)">
+  <div class="wrap contact-grid">
+    <div>
+      <div id="form-ok" class="msg" hidden>
+        <b>Tak for din besked</b>
+        <p>Jeg vender tilbage hurtigst muligt, som regel inden for to hverdage.</p>
+      </div>
+      <div id="form-fejl" class="msg msg--err" hidden style="margin-bottom:18px">
+        <b>Beskeden blev ikke sendt</b>
+        <p>Udfyld navn, e-mail og besked, og prøv igen. Du kan også ringe på 60 90 95 24.</p>
+      </div>
+      <form id="kontaktform" class="form" action="#" data-mailto="integrativlaege@pm.me">
+        <div class="field"><label for="navn">Navn</label><input id="navn" name="navn" type="text" autocomplete="name" required></div>
+        <div class="field"><label for="telefon">Telefonnummer</label><input id="telefon" name="telefon" type="tel" autocomplete="tel"></div>
+        <div class="field"><label for="email">E-mail</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+        <div class="field"><label for="besked">Besked</label><textarea id="besked" name="besked" required></textarea></div>
+        <div class="hp" aria-hidden="true"><label for="firma">Firma</label><input id="firma" name="firma" type="text" tabindex="-1" autocomplete="off"></div>
+        <p class="note">Når du trykker send, åbner dit mailprogram med beskeden udfyldt. Skriv kort, hvad du søger hjælp til. Detaljerede helbredsoplysninger gennemgår vi i telefonen.</p>
+        <button class="btn" type="submit">Send mail</button>
+      </form>
+    </div>
+    <div>
+      <span class="eyebrow">Ring eller skriv</span>
+      <div class="direct">
+        <div><span>Telefon</span><a href="tel:+4560909524">60 90 95 24</a></div>
+        <div><span>E-mail</span><a href="mailto:integrativlaege@pm.me">integrativlaege@pm.me</a></div>
+      </div>
+      <p class="small" style="margin:14px 0 clamp(36px,4.5vw,56px)">Får du ikke fat i mig, så læg en besked eller send en sms, så ringer jeg tilbage.</p>
+      <span class="eyebrow">Sådan foregår det</span>
+      <ul class="rows" style="margin-top:0">
+        <li><span class="k" style="flex-basis:120px">1</span><p class="v">Du ringer eller skriver til mig.</p></li>
+        <li><span class="k" style="flex-basis:120px">2</span><p class="v">Jeg ringer dig op til en afklaring på 15 minutter. Den er gratis og forpligter ikke til et forløb.</p></li>
+        <li><span class="k" style="flex-basis:120px">3</span><p class="v">Passer integrativ til det, du søger, aftaler vi længden af den første konsultation, og du får et spørgeskema.</p></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="site-foot">
+  <canvas id="relief" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="cols2">
+      <div>
+        <span class="brand"><b>integrativ</b><span>Medicin i sammenhæng</span></span>
+        <p style="margin-top:14px">Sophie Kastberg, læge<br><a href="tel:+4560909524">60 90 95 24</a><br><a href="mailto:integrativlaege@pm.me">integrativlaege@pm.me</a><br>integrativlaege.dk</p>
+      </div>
+      <div>
+        <ul>
+          <li><a href="index.html#tilgang">Tilgang</a></li>
+          <li><a href="analyser.html">Analyser</a></li>
+          <li><a href="priser.html">Priser</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="rammen.html">Rammen</a></li>
+        </ul>
+        <p style="margin-top:18px">Registreret hos Styrelsen for Patientsikkerhed, gruppe 3.<br>CVR indsættes</p>
+      </div>
+    </div>
+    <div class="legal">
+      <p><b>Ved akutte eller livstruende symptomer kontakt din praktiserende læge, lægevagten eller ring 112.</b><br><br>Indholdet på denne side er generel sundhedsoplysning og udgør ikke individuel medicinsk rådgivning, diagnose eller behandling. integrativ udskriver ikke receptpligtig medicin og erstatter ikke din praktiserende læge eller øvrige behandlere. Der gives ingen garanti for behandlingsresultat.</p>
+    </div>
+  </div>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>
