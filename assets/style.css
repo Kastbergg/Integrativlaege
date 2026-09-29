@@ -1,3 +1,8 @@
+/* skrifttyper hostes på siden selv (ingen forbindelse til Google) */
+@font-face{font-family:"Newsreader";src:url(fonts/newsreader-latin-opsz-normal.woff2) format("woff2");font-weight:200 800;font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Newsreader";src:url(fonts/newsreader-latin-ext-opsz-normal.woff2) format("woff2");font-weight:200 800;font-display:swap;unicode-range:U+0100-02AF,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Instrument Sans";src:url(fonts/instrument-sans-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Instrument Sans";src:url(fonts/instrument-sans-latin-500-normal.woff2) format("woff2");font-weight:500;font-display:swap}
 /* integrativ · fælles stylesheet */
 :root{
   --ink:#14273B; --soft:#5F6E7E; --accent:#2C5C7F; --warm:#3E6E86; --deep:#12304A;
@@ -229,3 +234,15 @@ p{margin:0}
 .nav a.btn-book,.nav a.btn-book[aria-current="page"]{color:#fff;background:var(--ink);border:0;padding:10px 20px;line-height:1.2;letter-spacing:.14em}
 .nav a.btn-book:hover{color:#fff;opacity:.85}
 .mnav a.btn-book{color:#fff}
+
+/* juridiske sider */
+.legal-page > *{max-width:44em}
+.legal-page ul + p{margin-top:12px}
+.legal-page h2{font-family:var(--serif);font-weight:300;font-size:clamp(1.35rem,2.4vw,1.75rem);letter-spacing:-.012em;line-height:1.2;margin:clamp(34px,4vw,48px) 0 10px}
+.legal-page h2:first-child{margin-top:0}
+.legal-page p,.legal-page li{color:var(--soft);font-size:.97rem;line-height:1.7}
+.legal-page p + p{margin-top:12px}
+.legal-page ul{margin:10px 0 0;padding-left:1.2em}
+.legal-page li + li{margin-top:6px}
+.legal-page strong{color:var(--ink);font-weight:500}
+.legal-page .meta{font-size:.82rem;margin-top:clamp(34px,4vw,48px);padding-top:16px;border-top:1px solid var(--line)}
